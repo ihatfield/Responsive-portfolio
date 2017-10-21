@@ -1,0 +1,34 @@
+#bio-img {
+	margin: 10px 25px 10px 0px;
+	height: 250px;
+	width: 250px;
+}
+
+#bio-text {
+	line-height: 2em;
+}
+
+
+@media screen and (max-width: 980px) {
+	#bio-img {
+		height: 360px;
+		width: 360px;
+		float: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#bio-img {
+		height: 330px;
+		width: 330px;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#bio-img {
+		height: 540px;
+		width: 540px;
+		float: none;
+	}
+}
